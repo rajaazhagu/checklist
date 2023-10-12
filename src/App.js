@@ -7,7 +7,7 @@ import AddItem from './AddItem';
 import Text from './Text';
 import SearchItem from './SearchItem';
 function App() {
-  const [items,setItems]=useState(JSON.parse(localStorage.getItem('todo_list')));
+  const [items,setItems]=useState(JSON.parse(localStorage.getItem('todo_list'))||[]);
 const [newItem,setnewItem]=useState("")
 const [search,setSearch]=useState('')
 const additem=(item)=>{

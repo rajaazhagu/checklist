@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5339cafe.css",
+    "main.js": "/static/js/main.ba282887.js",
+    "static/js/787.48f7d88d.chunk.js": "/static/js/787.48f7d88d.chunk.js",
+    "static/media/pexels-karolina-grabowska-4464438.jpg": "/static/media/pexels-karolina-grabowska-4464438.dd2a022d62f170896af5.jpg",
+    "index.html": "/index.html",
+    "main.5339cafe.css.map": "/static/css/main.5339cafe.css.map",
+    "main.ba282887.js.map": "/static/js/main.ba282887.js.map",
+    "787.48f7d88d.chunk.js.map": "/static/js/787.48f7d88d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5339cafe.css",
+    "static/js/main.ba282887.js"
+  ]
+}

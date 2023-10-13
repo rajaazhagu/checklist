@@ -403,9 +403,6 @@ ul::-webkit-scrollbar{
     border:1rem rgba(0, 0, 0, 0.956) ridge;
     border-radius: 1rem;
     min-height: 8vh;
-    background-size:300px 300px;
-    background-position-x: left;
-   background-position: 0.5rem;
    height:93vh;
   }
   .to{

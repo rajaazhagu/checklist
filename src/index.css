@@ -297,7 +297,7 @@ ul::-webkit-scrollbar{
     color:rgba(0, 0, 0, 0.784);
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width:400px) {
   .Header{
     color:rgba(0, 0, 0, 0.663);
     height: 4rem;

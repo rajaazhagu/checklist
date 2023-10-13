@@ -405,6 +405,7 @@ ul::-webkit-scrollbar{
     min-height: 8vh;
     background-image: url(pexels-karolina-grabowska-4464438.jpg);
     background-size: cover;
+    background-position-x: left;
    background-position: 0.5rem;
    height:93vh;
   }

@@ -297,3 +297,303 @@ ul::-webkit-scrollbar{
     color:rgba(0, 0, 0, 0.784);
   }
 }
+@media only screen and (max-width: 600px) {
+  .Header{
+    color:rgba(0, 0, 0, 0.663);
+    height: 4rem;
+    display: flex;
+    gap:2rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    font-size:1.5rem;
+    margin: 0%;
+    text-shadow:0.1rem 0.2rem;
+    align-content: center;
+    margin-left: 4rem;
+   }
+   .footer{
+    
+    margin-top:2rem;
+    width:15rem;
+   font-size:2rem;
+   display:flex;
+   flex-flow: row;
+  align-items: center;
+  align-content: center;
+   text-shadow:0.1rem 0.1rem;
+   height: 2rem;
+   justify-content: center;
+   margin-left: 25rem;
+  
+   }
+  
+   .footer:hover{
+       color:mediumblue;
+       
+   }
+  .code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  .main{
+    display:flex;
+    align-content: center;
+    justify-content:center;
+    height:60vh;
+    flex-flow: column;
+    gap:10px;
+    justify-items: center;
+    margin-top: 0%;
+    margin-left: 25rem;
+    
+    margin-top: 8rem;
+    position: fixed;
+    top: 9rem;
+  }
+  ul{
+    display: flex;
+    flex-flow: column;
+    gap:1rem;
+    height: 50vh;
+    overflow-y: scroll;
+  }
+  ul::-webkit-scrollbar{
+    display: none;
+  }
+  .list{
+    display: flex;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    align-items: center;
+    gap:1rem;
+    align-content: center;
+    background-color: rgba(161, 159, 159, 0.454);
+    width: 40rem;
+  }
+  .list > label{
+    color: black;
+    width:3rem;
+    font-size:3rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    flex-grow: 1;
+  }
+  .list input[type="checkbox"]{
+    text-align: center;
+    width:2.5rem;
+    width: 48px;
+    min-width: 48px;
+    height: 5rem;
+    
+    cursor: pointer;
+    margin-right: 0.5rem;
+  }
+  .list svg:focus,.list svg:hover{
+    color:red;
+  }
+  .list label:hover{
+    color:white;
+  }
+  .list:hover{
+    box-shadow:0rem 0.2rem 0.3rem black;
+  }
+  .app{
+    border:1rem rgba(0, 0, 0, 0.956) ridge;
+    border-radius: 1rem;
+    min-height: 8vh;
+    background-image: url(pexels-karolina-grabowska-4464438.jpg);
+    background-size: cover;
+   background-position: 0.5rem;
+   height:93vh;
+  }
+  .to{
+    animation-name: jump;
+    animation-duration:0.9s;
+    animation-iteration-count: 1;
+  }
+  @keyframes jump{
+    0%{
+      transform:translateY(-6rem);
+      transition: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    }
+    50%{
+      transform: translateY(4rem);
+    }
+    80%{
+      transform: translateY(-2rem);
+    }
+    90%{
+      transform: rotateY(90deg);
+      color:mediumblue;
+    }
+    100%{
+      transform:translateY(1rem) ;
+    }
+  }
+  .do{
+    animation-name: rotate;
+    animation-duration:2.1s;
+    animation-iteration-count: 1;
+  }
+  @keyframes rotate{
+    0%{
+      transform:translateY(-1000rem);
+      transition: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    }
+    50%{
+      transform: translateY(4rem);
+    }
+    80%{
+      transform: translateY(-2rem);
+    }
+    90%{
+      transform: rotateY(90deg);
+      color:mediumblue;
+    }
+    100%{
+      transform:translateY(1rem) ;
+    }
+  }
+  .lists{
+    animation-name: up;
+    animation-duration:3s;
+    animation-iteration-count: 1;
+  }
+  @keyframes up{
+    0%{
+      transform:translateY(-20000rem);
+      transition: ease-in-out;
+    }
+    50%{
+      transform: translateY(1rem);
+    }
+    80%{
+      transform: translateY(-2rem);
+    }
+    90%{
+      transform: rotateY(90deg);
+      color:mediumblue;
+    }
+    100%{
+      transform:translateY(1rem) ;
+    }
+    }
+    .empty{
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      height: 38vh;
+     margin-left: 4rem;
+     margin-top: 3rem;
+      justify-items: center;
+      margin-top: 15rem;
+      font-size: 4rem;
+      flex-flow: row;
+    }
+    .addForm{
+      display: flex;
+      align-content: center;
+      align-items: center;
+      justify-content: center;
+      margin-top: 2rem;
+      font-size: 2rem;
+  
+    }
+    .user{
+      font-size: 2rem;
+      display: flex;
+      gap:0.5rem;
+    }
+    .user input{
+      width:25rem;
+      color:black;
+      font-size: 2rem;
+      
+    }
+  .user svg:hover{
+    height: 2rem;
+    color:brown;
+    background-color:wheat;
+  }
+  .quote{
+    font-size: 3rem;
+    font-weight:bold;
+    position: fixed;
+    top:18rem;
+    left: 3rem;
+  
+    
+  }
+  .quote1{
+    animation-name: flow1;
+    animation-duration:3s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  @keyframes flow1{
+    0%{
+      color:rgba(0, 0, 0, 0.47);
+    }
+    100%{
+      color:rgba(0, 0, 0, 0.956);
+  
+  }}
+  .quote2{
+    color:rgba(0, 0, 0, 0);
+    animation-name: flow;
+    animation-iteration-count:1;
+    animation-duration:4s;
+    animation-delay:0s;
+    animation-timing-function: ease-out;
+  
+  
+  }
+  @keyframes flow{
+    0%{
+      color: black;
+      transform: translateY(-6.5rem);
+    }
+    5%{
+      color: black;
+      transform: translateY(-6.5rem);
+    }
+    20%{
+      transform: translateY(0rem);
+    }
+    83%{
+      transform:translateY(0rem)
+    }
+    100%{
+      animation-delay:3s;
+      transform: translateY(-6rem);
+      color:rgba(0, 0, 0, 0.427);
+    }
+  }
+  .quote3{
+    animation-name: flow2;
+    animation-iteration-count:1;
+    animation-duration: 4s;
+    animation-delay:0.8s;
+    color: rgba(0, 0, 0, 0);
+  
+  }
+  @keyframes flow2{
+    0%{
+      color: black;
+      transform: translateY(-6rem);
+    }
+    47%{
+      transform: translateY(0rem);
+    }
+    99%{
+      transform: translateY(-13rem);
+      color:rgba(0, 0, 0, 0.784);
+    }
+    100%{
+      transform: translateY(-13rem);
+      color:rgba(0, 0, 0, 0.784);
+    }
+  }}

@@ -401,9 +401,10 @@ ul::-webkit-scrollbar{
     border:1rem rgba(0, 0, 0, 0.956) ridge;
     border-radius: 1rem;
     min-height: 8vh;
+    width:320px;
    height:93vh;
    background-image: url(pexels-karolina-grabowska-4464438.jpg);
-   background-size: 18rem 40rem;
+   background-size:18rem 40rem;
   }
   .to{
     animation-name: jump;

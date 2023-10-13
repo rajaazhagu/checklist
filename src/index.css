@@ -46,7 +46,6 @@ align-content: center;
   justify-items: center;
   margin-top: 0%;
   margin-left: 25rem;
-  
   margin-top: 8rem;
   position: fixed;
   top: 9rem;
@@ -346,7 +345,6 @@ ul::-webkit-scrollbar{
     justify-items: center;
     margin-top: 0%;
     margin-left: 25rem;
-    
     margin-top: 8rem;
     position: fixed;
     top: 9rem;
@@ -404,6 +402,8 @@ ul::-webkit-scrollbar{
     border-radius: 1rem;
     min-height: 8vh;
    height:93vh;
+   background-image: url(pexels-karolina-grabowska-4464438.jpg);
+   background-size: 18rem 40rem;
   }
   .to{
     animation-name: jump;
